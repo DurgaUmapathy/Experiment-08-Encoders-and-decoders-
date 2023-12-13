@@ -54,43 +54,55 @@ D7 = X Y Z
 ![image](https://user-images.githubusercontent.com/36288975/171543866-5a6eace6-8683-49d7-9c4f-a7cb30ec3035.png)
 ## Figure -04 8 to 3 Decoder implementation 
 
-### Procedure
-/* write all the steps invloved */
+### Procedure:
+Step 1: Create module encoder and decoder.
+Step 2: Get inputs and outputs for encoders and decoders.
+Step 3: Perform "or" operation for encoder and "and" logic for decoders.
+Step 4: Perform RTL LOGIC and get waveform.
+Step-5: End the module.
 
 
 
-### PROGRAM 
-/*
+### PROGRAM:
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: DURGA U 
+RegisterNumber: 23003210
+
+## CODE:
+
+### ENCODER:
+![ENCODER CODE](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/40dd0a58-4381-4d9c-8519-94662823516f)
 
 
+### DECODER:
+![DECODER CODE](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/6448d160-b1d9-4939-a01f-51f62b0d5e90)
+
+## RTL LOGIC:
+
+### ENCODER:
+![ENCODER LOGIC](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/88c3f4d0-48dd-47ba-be19-196e821df917)
 
 
+### DECODER:
+![DECODER LOGIC](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/bf9c3c3c-1026-4e42-a4de-7d298551864d)
+
+## TIMING DIGRAMS:
+
+### ENCODER:
+![ENCODER TIME](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/7627cf3f-b48d-4849-bc91-75ed4727174d)
 
 
-### RTL LOGIC  
+### DECODER:
+![DECODER TIME](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/30003dcb-5a7a-4117-9f5c-59608b60f7f9)
+
+## TRUTH TABLE:
+
+### ENCODER:
+![ENCODER TT](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/056c084f-639b-46d3-8220-ace0fdafd7a7)
+
+### DECODER:
+![DECODER T](https://github.com/DurgaUmapathy/Experiment-08-Encoders-and-decoders-/assets/152186191/a7498eea-2c38-4509-b544-06efc610f6ca)
 
 
-
-
-
-
-
-
-### TIMING DIGRAMS  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+### RESULTS :
+Thus the program to desing encoder and decoder is done.
